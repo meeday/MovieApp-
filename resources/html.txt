@@ -35,7 +35,7 @@ Movie Details Card
 <div class="row">
     <div class="well">
         <h3>Plot</h3>
-        ${data.Plot}
+        "add plot"
         <hr>
         <a href="http://imdb.com/title/${data.imdbID}" target="_blank" class="btn btn-primary">View IMDB</a>
         <a href="index.html" class="btn btn-light">Go Back To Search</a>
