@@ -1,0 +1,43 @@
+Error Message
+<h2 class="text-danger text-center">"Add Error Message"</h2>
+
+------------------------------------------------------------------------------------------------------------------------
+
+Movie Card
+<div class="col-md-3">
+    <div class="well text-center">
+        <img src="add src">
+        <h5 class="text-truncate">"add title"</h5>
+        <a onclick="add onclick" class="btn btn-primary" href="#">Movie Details</a>
+    </div>
+</div>
+
+------------------------------------------------------------------------------------------------------------------------
+
+Movie Details Card
+<div class="row">
+    <div class="col-md-4">
+        <img src="add src" class="thumbnail">
+    </div>
+    <div class="col-md-8">
+        <h2>"add title"</h2>
+        <ul class="list-group ">
+            <li class="list-group-item list-group-item-dark"><strong>Genre: </strong>"add genre"</li>
+            <li class="list-group-item list-group-item-dark"><strong>Released: </strong>"add released"</li>
+            <li class="list-group-item list-group-item-dark"><strong>Rated: </strong>"add rated"</li>
+            <li class="list-group-item list-group-item-dark"><strong>IMDB Rating: </strong>"add imdb rating"</li>
+            <li class="list-group-item list-group-item-dark"><strong>Director: </strong>"add director"</li>
+            <li class="list-group-item list-group-item-dark"><strong>Writer: </strong>"add writer"</li>
+            <li class="list-group-item list-group-item-dark"><strong>Actors: </strong>"add actors"</li>
+        </ul>
+    </div>
+</div>
+<div class="row">
+    <div class="well">
+        <h3>Plot</h3>
+        ${data.Plot}
+        <hr>
+        <a href="http://imdb.com/title/${data.imdbID}" target="_blank" class="btn btn-primary">View IMDB</a>
+        <a href="index.html" class="btn btn-light">Go Back To Search</a>
+    </div>
+</div>

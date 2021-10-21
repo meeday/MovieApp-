@@ -18,12 +18,13 @@ body {
 }
 a {
     color: red;
+    margin: 10px;
 }
-  @media(min-width:960px){
-    #movies .col-md-3 .well{
-      height: 390px;
-    }
-  
+
+a:hover {
+    color: white;
+}
+  @media(min-width:960px){  
     #movies .col-md-3 img{
       height:240px;
     }
